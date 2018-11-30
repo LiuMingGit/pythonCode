@@ -1,18 +1,3 @@
-import math
-class point(object):
-    """
-    代表一个点
-    """
-    def __init__(self, x,y):
-        self.x = x
-        self.y = y
-    def __eq__(self,other):
-        if self.x == other.x and self.y == other.y:
-            return True
-        else:
-            return False
-    def __str__(self):
-        return "x:{},y:{}".format(self.x,self.y)
 class AStar(object):
     """
     A*算法类
